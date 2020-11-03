@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="VoLap.example.circleview.GiaoDoAn_activity">
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Giao đồ ăn"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <EditText
+
+            android:id="@+id/infoTxtCredits"
+            android:layout_width="413dp"
+            android:layout_height="19dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:linksClickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/head"
+        android:id="@+id/content1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_setting"
+        android:elevation="2px"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="103dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorBlack"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_GiaoDoAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_bg"
+            android:text="Giao đồ ăn"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

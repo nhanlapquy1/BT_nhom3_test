@@ -16,6 +16,8 @@
         <activity android:name="VoLap.example.circleview.SignupActivity" />
 
         <activity android:name="VoLap.example.circleview.LoginActivity" ></activity>
+        <activity android:name="VoLap.example.circleview.GiaoDoAn_activity" ></activity>
+        <activity android:name="VoLap.example.circleview.Home_Activity" ></activity>
         <activity android:name="VoLap.example.circleview.User1Activity" ></activity>
 
         <activity android:name="VoLap.example.circleview.MainActivity">
