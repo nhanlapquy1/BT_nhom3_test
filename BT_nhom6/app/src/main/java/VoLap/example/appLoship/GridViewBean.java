@@ -1,8 +1,4 @@
-package VoLap.example.circleview;
-
-import android.widget.GridView;
-
-import java.util.GregorianCalendar;
+package VoLap.example.appLoship;
 
 public class GridViewBean {
     private  int hinhanh;

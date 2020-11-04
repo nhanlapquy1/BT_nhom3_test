@@ -1,12 +1,12 @@
-package VoLap.example.circleview;
+package VoLap.example.appLoship;
 
-public class ListViewBeanProfile {
+public class ListViewBean {
     int image;
     String friend;
-    public ListViewBeanProfile(){
+    public ListViewBean(){
 
     }
-    public ListViewBeanProfile(int image, String friend){
+    public ListViewBean(int image, String friend){
         super();
         this.image = image;
         this.friend = friend;

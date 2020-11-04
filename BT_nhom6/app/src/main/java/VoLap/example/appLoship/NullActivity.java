@@ -1,4 +1,4 @@
-package VoLap.example.circleview;
+package VoLap.example.appLoship;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#99EAF4"
-    tools:context="VoLap.example.circleview.SignupActivity">
+    tools:context="VoLap.example.appLoship.SignupActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="3"
-    tools:context="VoLap.example.circleview.HistoryActivity">
+    tools:context="VoLap.example.appLoship.HistoryActivity">
     <RelativeLayout
         android:id="@+id/head"
         android:layout_width="match_parent"

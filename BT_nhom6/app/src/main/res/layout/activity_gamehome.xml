@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/vang"
-    tools:context="VoLap.example.circleview.GameHomeActivity"
+    tools:context="VoLap.example.appLoship.GameHomeActivity"
     tools:ignore="MissingDefaultResource">
     <LinearLayout
         android:layout_width="match_parent"
@@ -143,6 +143,7 @@
                         android:textColor="#000"
                         android:text="Mavel"/>
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
