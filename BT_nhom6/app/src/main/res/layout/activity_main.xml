@@ -23,6 +23,7 @@
             android:src="@drawable/loship_logo2" />
 
     </LinearLayout>
+
 <Button
     android:id="@+id/bt_next"
     android:layout_width="match_parent"
@@ -30,7 +31,7 @@
     android:gravity="center"
     android:background="@android:color/holo_red_dark"
     android:fontFamily="sans-serif-light"
-    android:text="Click next"
+    android:text="Đăng kí ngay"
     android:textColor="#FFFFFF"
     android:textSize="20dp"
     android:textStyle="bold">

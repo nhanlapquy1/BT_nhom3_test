@@ -15,6 +15,7 @@
         <activity android:name="VoLap.example.appLoship.GameHomeActivity"/>
         <activity android:name="VoLap.example.appLoship.SignupActivity" />
 
+        <activity android:name="VoLap.example.appLoship.DoAnActivity" ></activity>
         <activity android:name="VoLap.example.appLoship.LoginActivity" ></activity>
         <activity android:name="VoLap.example.appLoship.GiaoDoAn_activity" ></activity>
         <activity android:name="VoLap.example.appLoship.User1Activity" ></activity>

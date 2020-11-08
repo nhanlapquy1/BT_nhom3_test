@@ -4,19 +4,31 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
 import com.example.circleview.R;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btnNext ;
+    Button btnext;
+    private static int SPLASH_SCREEN = 3000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnNext=(Button)findViewById(R.id.bt_next);
-        btnNext.setOnClickListener(new View.OnClickListener() {
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MainActivity.this, Home_Activity.class);
+                startActivity(intent);
+            }
+        }, SPLASH_SCREEN);
+
+        btnext=(Button)findViewById(R.id.bt_next);
+        btnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent Dis2=new Intent(MainActivity.this,LoginActivity.class);
@@ -25,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+
+
 
 
 
