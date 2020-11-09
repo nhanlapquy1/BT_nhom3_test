@@ -13,8 +13,8 @@ import com.example.circleview.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class  Home_Activity extends AppCompatActivity {
-    Button bt_GiaoDoAn;
-    Button bt_List_GiaoDoAn;
+    Button bt_GiaoDoAn,bt_List_GiaoDoAn,bt_MenuMonAn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +33,15 @@ public class  Home_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent Dis3=new Intent(Home_Activity.this,List_GiaoDoAn.class);
+                startActivity(Dis3);
+            }
+        });
+
+        bt_MenuMonAn=(Button)findViewById(R.id.bt_menumonan);
+        bt_MenuMonAn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Dis3=new Intent(Home_Activity.this,MenuMonAn.class);
                 startActivity(Dis3);
             }
         });

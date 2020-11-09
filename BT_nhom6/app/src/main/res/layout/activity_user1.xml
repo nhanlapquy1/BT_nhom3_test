@@ -26,7 +26,7 @@
             android:id="@+id/infoTxtCredits"
             android:layout_width="413dp"
             android:layout_height="19dp"
-            android:layout_centerInParent="true"
+
             android:layout_gravity="center"
             android:autoLink="web"
             android:linksClickable="true" />
@@ -46,16 +46,17 @@
             android:textColor="@color/colorBlack"
             android:textStyle="bold"
             android:textSize="18dp" />
+
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="354dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="14dp"
             android:layout_gravity="center"
+
             android:hint="USER NAME" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="27dp"
             android:text="(*) Thông tin không bỏ trống"
             android:textColor="@android:color/darker_gray"
             android:textSize="18dp" />
@@ -77,7 +78,7 @@
             android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mẹo: Liên kết tài khoản Facebook để lần sau đăng nhập nhanh hơn."
+            android:text="Mẹo: Liên kết tài khoản Facebook để đăng nhập nhanh hơn."
             android:textSize="16dp"
             android:textStyle="bold"
             android:layout_marginLeft="5dp"

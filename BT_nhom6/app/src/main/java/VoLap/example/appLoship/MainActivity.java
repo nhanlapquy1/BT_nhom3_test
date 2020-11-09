@@ -1,18 +1,18 @@
 package VoLap.example.appLoship;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.circleview.R;
 
 public class MainActivity extends AppCompatActivity {
     Button btnext;
-    private static int SPLASH_SCREEN = 3000;
+    private static int SPLASH_SCREEN = 1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

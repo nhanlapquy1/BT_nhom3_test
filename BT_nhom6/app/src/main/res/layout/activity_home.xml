@@ -78,6 +78,17 @@
             android:textColor="#fff"
             android:textSize="18sp" />
 
+        <Button
+            android:id="@+id/bt_menumonan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_bg"
+            android:text="Menu món ăn"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

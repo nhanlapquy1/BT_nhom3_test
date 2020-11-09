@@ -9,21 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="VoLap.example.appLoship.NullActivity"></activity>
+        <activity android:name="VoLap.example.appLoship.NullActivity"/>
         <activity android:name="VoLap.example.appLoship.HistoryActivity" />
         <activity android:name="VoLap.example.appLoship.SettingsActivity" />
         <activity android:name="VoLap.example.appLoship.GameHomeActivity"/>
         <activity android:name="VoLap.example.appLoship.SignupActivity" />
 
-        <activity android:name="VoLap.example.appLoship.DoAnActivity" ></activity>
-        <activity android:name="VoLap.example.appLoship.List_GiaoDoAn" ></activity>
-        <activity android:name="VoLap.example.appLoship.ProfileUserActivity" ></activity>
-        <activity android:name="VoLap.example.appLoship.ThongBaoActivity" ></activity>
-        <activity android:name="VoLap.example.appLoship.LoginActivity" ></activity>
-        <activity android:name="VoLap.example.appLoship.GiaoDoAn_activity" ></activity>
-        <activity android:name="VoLap.example.appLoship.User1Activity" ></activity>
-        <activity android:name="VoLap.example.appLoship.Home_Activity" ></activity>
-        <activity android:name="VoLap.example.appLoship.Loading_activity" ></activity>
+        <activity android:name="VoLap.example.appLoship.DoAnActivity" />
+        <activity android:name="VoLap.example.appLoship.MenuMonAn" />
+        <activity android:name="VoLap.example.appLoship.List_GiaoDoAn" />
+        <activity android:name="VoLap.example.appLoship.ProfileUserActivity" />
+        <activity android:name="VoLap.example.appLoship.ThongBaoActivity" />
+        <activity android:name="VoLap.example.appLoship.LoginActivity" />
+        <activity android:name="VoLap.example.appLoship.GiaoDoAn_activity" />
+        <activity android:name="VoLap.example.appLoship.User1Activity" />
+        <activity android:name="VoLap.example.appLoship.Home_Activity"/>
+        <activity android:name="VoLap.example.appLoship.Loading_activity"/>
 
         <activity android:name="VoLap.example.appLoship.MainActivity">
             <intent-filter>
