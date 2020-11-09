@@ -1,15 +1,11 @@
 package VoLap.example.appLoship;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.widget.GridView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.circleview.R;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
@@ -28,10 +24,11 @@ public class HistoryActivity extends AppCompatActivity {
         adapter = new GridViewBaseAdapter(this,R.layout.activity_picture,arrayList);
         gridHinhAnh.setAdapter(adapter);
 
+        /*
         BottomNavigationView btnview;
         btnview = (BottomNavigationView)findViewById(R.id.bottom_navigation);
 
-        btnview.setSelectedItemId(R.id.service);
+        btnview.setSelectedItemId(R.id.thongbao);
 
         btnview.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -41,7 +38,7 @@ public class HistoryActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), GameHomeActivity.class));
                         overridePendingTransition(0,0);
                         return true;
-                    case R.id.service:
+                    case R.id.thongbao:
                         return true;
                     case R.id.canhan:
                         startActivity(new Intent(getApplicationContext(),SettingsActivity.class));
@@ -51,6 +48,8 @@ public class HistoryActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+         */
 
     }
     private void Anhxa(){

@@ -1,17 +1,14 @@
 package VoLap.example.appLoship;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.circleview.R;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
@@ -47,6 +44,8 @@ public class GameHomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        /*
         BottomNavigationView btnview;
         btnview = (BottomNavigationView)findViewById(R.id.bottom_navigation);
 
@@ -56,7 +55,7 @@ public class GameHomeActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
-                    case R.id.service:
+                    case R.id.thongbao:
                         startActivity(new Intent(getApplicationContext(), HistoryActivity.class));
                         overridePendingTransition(0,0);
                         return true;
@@ -70,5 +69,7 @@ public class GameHomeActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+         */
     }
 }

@@ -1,19 +1,16 @@
 package VoLap.example.appLoship;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.circleview.R;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
@@ -65,6 +62,7 @@ public class SettingsActivity extends AppCompatActivity {
             }
         });
 
+        /*
         BottomNavigationView btnview;
         btnview = (BottomNavigationView)findViewById(R.id.bottom_navigation);
 
@@ -73,7 +71,7 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
-                    case R.id.service:
+                    case R.id.thongbao:
                         startActivity(new Intent(getApplicationContext(), HistoryActivity.class));
                         overridePendingTransition(0,0);
                         return true;
@@ -87,5 +85,7 @@ public class SettingsActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+         */
     }
 }
