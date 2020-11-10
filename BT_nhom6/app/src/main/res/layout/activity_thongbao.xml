@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="VoLap.example.appLoship.ThongBaoActivity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,13 +18,12 @@
 
             />
         <ImageView
-            android:id="@+id/btn_thongbao"
+            android:id="@+id/img_thongbao"
             android:layout_width="25dp"
             android:layout_height="20dp"
             android:layout_marginLeft="120dp"
             android:src="@drawable/ic_group_menu"
             android:layout_marginTop="20dp"
-
             />
     </LinearLayout>
 
@@ -31,7 +31,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="65dp">
-
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"

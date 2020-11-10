@@ -13,15 +13,15 @@ import com.example.circleview.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public  class ListViewBaseAdapter extends BaseAdapter {
-    public ArrayList<ListViewBean> arraylistListener;
-    private List<ListViewBean> mListenerList;
+public  class ListViewBaseAdapterProfile_a extends BaseAdapter {
+    public ArrayList<ListViewBeanProfile_a> arraylistListener;
+    private List<ListViewBeanProfile_a> mListenerList;
     Context mContext;
 
-    public ListViewBaseAdapter(List<ListViewBean> mListenerList, Context context){
+    public ListViewBaseAdapterProfile_a(List<ListViewBeanProfile_a> mListenerList, Context context){
         mContext = context;
         this.mListenerList = mListenerList;
-        this.arraylistListener = new ArrayList<ListViewBean>();
+        this.arraylistListener = new ArrayList<ListViewBeanProfile_a>();
         this.arraylistListener.addAll(mListenerList);
     }
     public class  ViewHolder{
@@ -44,10 +44,10 @@ public  class ListViewBaseAdapter extends BaseAdapter {
     public View getView(final int position, View view, ViewGroup parent) {
         final ViewHolder holder;
         if (view == null) {
-            view = LayoutInflater.from(mContext).inflate(R.layout.demo, null);
+            view = LayoutInflater.from(mContext).inflate(R.layout.list_myprofile_a, null);
             holder = new ViewHolder();
-            holder.mItemPic = (ImageView) view.findViewById(R.id.im_test);
-            holder.mLangName=(TextView)view.findViewById(R.id.tv_langName);
+            holder.mItemPic = (ImageView) view.findViewById(R.id.hinhanh);
+            holder.mLangName=(TextView)view.findViewById(R.id.tieude);
 
 
             view.setTag(holder);

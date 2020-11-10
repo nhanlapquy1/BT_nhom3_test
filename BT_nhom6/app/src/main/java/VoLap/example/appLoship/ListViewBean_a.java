@@ -1,12 +1,12 @@
 package VoLap.example.appLoship;
 
-public class ListViewBean {
+public class ListViewBean_a {
     int image;
     String friend;
-    public ListViewBean(){
+    public ListViewBean_a(){
 
     }
-    public ListViewBean(int image, String friend){
+    public ListViewBean_a(int image, String friend){
         super();
         this.image = image;
         this.friend = friend;

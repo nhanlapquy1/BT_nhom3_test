@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="VoLap.example.appLoship.SettingsActivity">
+    tools:context="VoLap.example.appLoship.SettingsActivity_a">
         <LinearLayout
             android:id="@+id/head"
             android:layout_width="match_parent"

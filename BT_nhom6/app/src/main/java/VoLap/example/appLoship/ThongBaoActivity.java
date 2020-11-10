@@ -23,6 +23,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class ThongBaoActivity extends AppCompatActivity {
     ListView listView;
+    ImageView img_thongbao1;
+
     String mTitle[] = {"Đặt ngay bữa sáng đồng giá 17k nào, vừa rẻ mà lại no căng bụng đấy. Đặc biệt được freeship 1,8km nhé."
             ,"Chiều nay uống gì thì đặt thôi nào, đồng giá 17k freeship lun à nha"
             ,"Bị bệnh đừng quên lên Lomed. Mua thuốc giao hàng tận nhà lại còn rất nhanh."
@@ -36,6 +38,15 @@ public class ThongBaoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thongbao);
+
+        img_thongbao1 = (ImageView)findViewById(R.id.img_thongbao);
+        img_thongbao1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ThongBaoActivity.this, DangXuat.class);
+                startActivity(intent);
+            }
+        });
 
 
         BottomNavigationView btnview;

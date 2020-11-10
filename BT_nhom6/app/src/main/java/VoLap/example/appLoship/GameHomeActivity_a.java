@@ -12,35 +12,35 @@ import com.example.circleview.R;
 
 import java.util.ArrayList;
 
-public class GameHomeActivity extends AppCompatActivity {
+public class GameHomeActivity_a extends AppCompatActivity {
 
     ListView lview;
     ImageView imgsetting;
-    ListViewBaseAdapter adapter;
-    ArrayList<ListViewBean> arr_bean;
+    ListViewBaseAdapter_a adapter;
+    ArrayList<ListViewBean_a> arr_bean;
     ArrayList<String> arrayList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gamehome);
+        setContentView(R.layout.activity_gamehome_a);
 
         lview = (ListView)findViewById(R.id.listfriends);
-        arr_bean=new ArrayList<ListViewBean>();
-        arr_bean.add(new ListViewBean(R.drawable.game1, "Hải tặc đại chiến"));
-        arr_bean.add(new ListViewBean(R.drawable.game2, "Garena Free Fire"));
-        arr_bean.add(new ListViewBean(R.drawable.game4,"Asphalt 8"));
-        arr_bean.add(new ListViewBean(R.drawable.game5, "Maverl"));
-        arr_bean.add(new ListViewBean(R.drawable.game3, "Plane and Zombe"));
-        arr_bean.add(new ListViewBean(R.drawable.game6, "Garena Liên Quân Mobile"));
+        arr_bean=new ArrayList<ListViewBean_a>();
+        arr_bean.add(new ListViewBean_a(R.drawable.game1, "Hải tặc đại chiến"));
+        arr_bean.add(new ListViewBean_a(R.drawable.game2, "Garena Free Fire"));
+        arr_bean.add(new ListViewBean_a(R.drawable.game4,"Asphalt 8"));
+        arr_bean.add(new ListViewBean_a(R.drawable.game5, "Maverl"));
+        arr_bean.add(new ListViewBean_a(R.drawable.game3, "Plane and Zombe"));
+        arr_bean.add(new ListViewBean_a(R.drawable.game6, "Garena Liên Quân Mobile"));
 
-        adapter = new ListViewBaseAdapter(arr_bean,this);
+        adapter = new ListViewBaseAdapter_a(arr_bean,this);
         lview.setAdapter(adapter);
 
         imgsetting = (ImageView)findViewById(R.id.setting);
         imgsetting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(GameHomeActivity.this,SettingsActivity.class);
+                Intent intent = new Intent(GameHomeActivity_a.this, SettingsActivity_a.class);
                 startActivity(intent);
             }
         });

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2F2F2">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F2F2F2"
+    tools:context="VoLap.example.appLoship.DangXuat">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#fff">
         <ImageView
-            android:id="@+id/btn_thongbao"
+            android:id="@+id/btn_thongbao_dang_xuat"
             android:layout_width="25dp"
             android:layout_height="20dp"
             android:layout_marginLeft="20dp"
@@ -97,6 +98,7 @@
         android:layout_marginTop="252dp"
         android:background="#fff">
         <TextView
+            android:id="@+id/dang_xuat"
             android:layout_width="250dp"
             android:layout_height="30dp"
             android:text="Đăng xuất"

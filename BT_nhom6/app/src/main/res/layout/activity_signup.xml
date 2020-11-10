@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/colorWhite"
     tools:context="VoLap.example.appLoship.SignupActivity">
-
+<!---->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

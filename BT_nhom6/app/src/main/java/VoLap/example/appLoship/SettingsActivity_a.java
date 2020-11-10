@@ -14,42 +14,42 @@ import com.example.circleview.R;
 
 import java.util.ArrayList;
 
-public class SettingsActivity extends AppCompatActivity {
+public class SettingsActivity_a extends AppCompatActivity {
 
     Button btlogout;
     ImageView imgBackChat;
     TextView tvamnhac;
     ListView lview;
-    ListViewBaseAdapterProfile adapter, adapter_private;
-    ArrayList<ListViewBeanProfile> arr_bean;
-    ArrayList<ListViewBeanProfile> arr_bean_private;
+    ListViewBaseAdapterProfile_a adapter, adapter_private;
+    ArrayList<ListViewBeanProfile_a> arr_bean;
+    ArrayList<ListViewBeanProfile_a> arr_bean_private;
     ArrayList<String> arrayList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
+        setContentView(R.layout.activity_settings_a);
 
 
         lview = (ListView)findViewById(R.id.list_profile);
 
-        arr_bean = new ArrayList<ListViewBeanProfile>();
+        arr_bean = new ArrayList<ListViewBeanProfile_a>();
 
-        arr_bean.add(new ListViewBeanProfile(R.drawable.ic_user, "Họ và tên : Trần Võ Lập"));
-        arr_bean.add(new ListViewBeanProfile(R.drawable.ic_simple, "Ngày sinh : 30/04/2000"));
-        arr_bean.add(new ListViewBeanProfile(R.drawable.ic_idea,"Trình độ học vấn : 12/12"));
-        arr_bean.add(new ListViewBeanProfile(R.drawable.ic_mail, "SĐT: 0989 989899"));
-        arr_bean.add(new ListViewBeanProfile(R.drawable.ic_country, "Địa chỉ : Cát Hưng - Phù Cát - Bình Định"));
-        arr_bean.add(new ListViewBeanProfile(R.drawable.ic_private, "Sở thích: Chơi game và học lập trình"));
-        arr_bean.add(new ListViewBeanProfile(R.drawable.icon_game, "Thành tích: Đạt top 1 ao làng Liên quân"));
+        arr_bean.add(new ListViewBeanProfile_a(R.drawable.ic_user, "Họ và tên : Trần Võ Lập"));
+        arr_bean.add(new ListViewBeanProfile_a(R.drawable.ic_simple, "Ngày sinh : 30/04/2000"));
+        arr_bean.add(new ListViewBeanProfile_a(R.drawable.ic_idea,"Trình độ học vấn : 12/12"));
+        arr_bean.add(new ListViewBeanProfile_a(R.drawable.ic_mail, "SĐT: 0989 989899"));
+        arr_bean.add(new ListViewBeanProfile_a(R.drawable.ic_country, "Địa chỉ : Cát Hưng - Phù Cát - Bình Định"));
+        arr_bean.add(new ListViewBeanProfile_a(R.drawable.ic_private, "Sở thích: Chơi game và học lập trình"));
+        arr_bean.add(new ListViewBeanProfile_a(R.drawable.icon_game, "Thành tích: Đạt top 1 ao làng Liên quân"));
 
-        adapter = new ListViewBaseAdapterProfile(arr_bean,this);
+        adapter = new ListViewBaseAdapterProfile_a(arr_bean,this);
         lview.setAdapter(adapter);
 
         imgBackChat = (ImageView)findViewById(R.id.backchat);
         imgBackChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SettingsActivity.this, GameHomeActivity.class);
+                Intent intent = new Intent(SettingsActivity_a.this, GameHomeActivity_a.class);
                 startActivity(intent);
             }
         });
@@ -57,7 +57,7 @@ public class SettingsActivity extends AppCompatActivity {
         btlogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SettingsActivity.this, LoginActivity.class);
+                Intent intent = new Intent(SettingsActivity_a.this, LoginActivity.class);
                 startActivity(intent);
             }
         });

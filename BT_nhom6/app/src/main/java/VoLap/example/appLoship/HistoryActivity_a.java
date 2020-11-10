@@ -9,19 +9,19 @@ import com.example.circleview.R;
 
 import java.util.ArrayList;
 
-public class HistoryActivity extends AppCompatActivity {
+public class HistoryActivity_a extends AppCompatActivity {
 
     GridView gridHinhAnh;
-    ArrayList<GridViewBean> arrayList;
-    GridViewBaseAdapter adapter;
+    ArrayList<GridViewBean_a> arrayList;
+    GridViewBaseAdapter_a adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_history);
+        setContentView(R.layout.activity_history_a);
 
         Anhxa();
 
-        adapter = new GridViewBaseAdapter(this,R.layout.activity_picture,arrayList);
+        adapter = new GridViewBaseAdapter_a(this,R.layout.activity_picture,arrayList);
         gridHinhAnh.setAdapter(adapter);
 
         /*
@@ -55,12 +55,12 @@ public class HistoryActivity extends AppCompatActivity {
     private void Anhxa(){
         gridHinhAnh = (GridView)findViewById(R.id.gridviewServices);
         arrayList = new ArrayList<>();
-        arrayList.add(new GridViewBean("Nghe nhạc",R.drawable.app1));
-        arrayList.add(new GridViewBean("Học lập trình",R.drawable.app2));
-        arrayList.add(new GridViewBean("Edit Video",R.drawable.app3));
-        arrayList.add(new GridViewBean("Edit ảnh",R.drawable.app4));
-        arrayList.add(new GridViewBean("chơi game",R.drawable.game6));
-        arrayList.add(new GridViewBean("xem Youtobe",R.drawable.app6));
+        arrayList.add(new GridViewBean_a("Nghe nhạc",R.drawable.app1));
+        arrayList.add(new GridViewBean_a("Học lập trình",R.drawable.app2));
+        arrayList.add(new GridViewBean_a("Edit Video",R.drawable.app3));
+        arrayList.add(new GridViewBean_a("Edit ảnh",R.drawable.app4));
+        arrayList.add(new GridViewBean_a("chơi game",R.drawable.game6));
+        arrayList.add(new GridViewBean_a("xem Youtobe",R.drawable.app6));
     }
 
 }

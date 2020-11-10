@@ -18,7 +18,7 @@ public class  Home_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_home_a);
         bt_GiaoDoAn=(Button)findViewById(R.id.bt_GiaoDoAn);
         bt_GiaoDoAn.setOnClickListener(new View.OnClickListener() {
             @Override

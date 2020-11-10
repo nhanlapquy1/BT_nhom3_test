@@ -12,13 +12,13 @@ import com.example.circleview.R;
 
 import java.util.List;
 
-public class GridViewBaseAdapter extends BaseAdapter {
+public class GridViewBaseAdapter_a extends BaseAdapter {
 
     private Context context;
     private int layout;
-    private List<GridViewBean> hinhanhList;
+    private List<GridViewBean_a> hinhanhList;
 
-    public GridViewBaseAdapter(Context context, int layout, List<GridViewBean> hinhanhList) {
+    public GridViewBaseAdapter_a(Context context, int layout, List<GridViewBean_a> hinhanhList) {
         this.context = context;
         this.layout = layout;
         this.hinhanhList = hinhanhList;
@@ -56,7 +56,7 @@ public class GridViewBaseAdapter extends BaseAdapter {
         }else{
             holder = (ViewHolder)convertView.getTag();
         }
-        GridViewBean hinhanh = hinhanhList.get(position);
+        GridViewBean_a hinhanh = hinhanhList.get(position);
         holder.imgView.setImageResource(hinhanh.getHinhanh());
         holder.tenView.setText(hinhanhList.get(position).getTen());
         return convertView;

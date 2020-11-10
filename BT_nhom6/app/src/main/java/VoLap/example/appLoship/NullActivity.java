@@ -11,6 +11,6 @@ public class NullActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chuacoten);
+        setContentView(R.layout.activity_bottom_use);
     }
 }

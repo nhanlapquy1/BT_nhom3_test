@@ -13,34 +13,37 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#fff">
-    <ImageView
-        android:id="@+id/btn_thongbao"
-        android:layout_width="25dp"
-        android:layout_height="20dp"
-        android:layout_marginLeft="20dp"
-        android:src="@drawable/ic_arrow_black"
-        android:layout_marginTop="20dp"
-        />
-    <ImageView
-        android:layout_width="90dp"
-        android:layout_height="60dp"
-        android:src="@drawable/loship_logo"
-        android:layout_marginLeft="120dp"
-        />
-    <ImageView
-        android:id="@+id/btn_GiamGia"
-        android:layout_width="25dp"
-        android:layout_height="20dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/icgiamgia"
-        />
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/btn_back_home"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_arrow_black" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/loship_logo" />
+
+        <ImageView
+            android:id="@+id/btn_GiamGia"
+            android:layout_width="28dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="110dp"
+
+            android:src="@drawable/icgiamgia" />
+
+    </LinearLayout>
     <EditText
         android:id="@+id/editText"
         android:layout_width="381dp"
@@ -189,7 +192,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
                 <Button
-                    android:id="@+id/Bt_ViewALL"
+                    android:id="@+id/btn_menu_ALL"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -385,7 +388,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
                 <Button
-                    android:id="@+id/Bt_ViewALL2"
+                    android:id="@+id/btn_cua_hang"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -741,14 +744,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="179dp"
+                    android:layout_height="48dp"
                     android:layout_marginLeft="20dp"
+                    android:background="@color/cardview_light_background"
                     android:gravity="center"
                     android:text="Quán mới"
                     android:textColor="@android:color/secondary_text_light"
-                    android:background="@color/cardview_light_background"
                     android:textSize="20sp"
                     android:textStyle="bold" />
                 <TextView
